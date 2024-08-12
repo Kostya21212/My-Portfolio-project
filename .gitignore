@@ -1,0 +1,31 @@
+# Исключить node_modules
+node_modules/
+
+# Другие стандартные исключения для проекта Node.js
+npm-debug.log
+.DS_Store
+*.log
+.env
+coverage/
+dist/
+build/
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Исключить кэшированные файлы
+*.cache
+
+# Исключить временные файлы операционной системы
+Thumbs.db
+Desktop.ini
+
+# Исключить файлы редакторов и IDE
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Исключить файлы и директории с конфиденциальными данными
+secrets/
